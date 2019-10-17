@@ -1,0 +1,15 @@
+{
+    "StudentID" : "6030211000",
+    "Fullname" : "Sulakkana Rodkuen",
+    "Major" : "IT",
+    "Skills" : [
+        "Java" ,
+        "C++",
+        "HTML"
+    ],
+    "Photos":[
+        "cat1.jpg",
+        "cat2.jpg",
+        "cat3.jpg"
+    ]
+}

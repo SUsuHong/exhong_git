@@ -1,0 +1,14 @@
+
+<% include ../partials/header %>
+<div class="container">
+        <h1><%= profile.StudentID%></h1>
+        <h2><%= profile.Fullname%></h2>
+        <h2><%= profile.Major%></h2>
+        <h2>Skills</h2>
+        <ul>
+                <% profile.Skills.forEach(function(Skill){ %>
+                    <li><%=Skill%></li>
+                <%});%>
+        </ul> <!--สร้างตัวเลือก-->
+    </div>
+ <% include ../partials/footer %> <!--เรียกจากหน้าfooter มาแปะ-->

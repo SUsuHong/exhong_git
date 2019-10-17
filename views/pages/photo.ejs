@@ -1,0 +1,10 @@
+<% include ../partials/header %>
+<div class="container">
+    <h1>  Photos  </h1>
+    <ul>
+        <% profile.Photos.forEach(function(photo){%>
+            <li><img src="<%= photo%>" width ="300"></li>
+       <% });%>
+    </ul>
+    </div>
+ <% include ../partials/footer %> <!--เรียกจากหน้าfooter มาแปะ-->
